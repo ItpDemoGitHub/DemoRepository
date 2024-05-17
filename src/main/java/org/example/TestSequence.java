@@ -5,6 +5,7 @@ public class TestSequence {
         String str = "I love java";
         for(int index=0;index<str.length();index++){
             System.out.println(index+" --> "+str.charAt(index));
+            System.out.println(str.charAt(index)+" "+"test")
         }
     }
 }
